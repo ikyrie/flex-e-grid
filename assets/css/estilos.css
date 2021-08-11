@@ -31,3 +31,8 @@ body {
 .cabecalho__logo {
     width: 40px;
 }
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+}
