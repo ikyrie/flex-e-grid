@@ -101,3 +101,73 @@ body {
 .menu-lateral__link--pinturas::before {
     content: "\e90a";
 }
+
+.principal {
+    padding: 24px 16px;
+}
+
+.titulo-pagina {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.cartao {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #2C343A;
+}
+
+.cartao__conteudo {
+    padding: 16px;
+}
+
+.cartao__titulo {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.cartao__perfil {
+    color: #95999C;
+    font-size: 0.9rem;
+}
+
+.cartao__info {
+    display: flex;
+    align-items: center;
+    color: #95999C;
+}
+
+.cartao__info--tempo {
+    content: "\e90c";
+    margin-right: 8px;    
+}
+
+.cartao__info--visualizacao {
+    content: "\e90f";
+    margin-right: 8px;    
+}
+
+.cartao__botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0480DC;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+.cartao__botao--play::before {
+    content: "\e90b";
+    font-size: 24px;
+}
+
+.cartao__botao--destaque {
+    width: 100%;
+}
+
+.cartao__botao--destaque::before {
+    margin-right: 8px;
+}
