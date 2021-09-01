@@ -161,6 +161,13 @@ body {
     content: "\e90a";
 }
 
+@media screen and (min-width: 1440px) {
+    .menu-lateral {
+        position: static;
+        width: 200px;
+    }
+}
+
 .principal {
     padding: 24px 16px;
     display: grid;
@@ -175,6 +182,15 @@ body {
 .titulo-secao {
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+@media screen and (min-width: 1440px) {
+    .principal {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        column-gap: 32px;
+        padding: 16px 60px;
+    }
 }
 
 .cartao {
