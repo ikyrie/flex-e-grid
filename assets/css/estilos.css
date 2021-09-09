@@ -191,6 +191,13 @@ body {
     .principal {
         display: grid;
         grid-template-columns: auto 1fr auto;
+        grid-template-areas: 
+            "titulo-pagina titulo-pagina titulo-pagina"
+            "destaque-video destaque-video videos-recentes"
+            "secao-videos secao-videos secao-videos"
+            "produtos-recentes destaque-produtos destaque-produtos"
+            "secao-produtos secao-produtos secao-produtos"       
+        ;
         column-gap: 32px;
         padding: 16px 60px;
         grid-column: 2;
@@ -331,4 +338,28 @@ body {
 .secao {
     display: grid;
     gap: 16px;
+}
+
+.destaque-video {
+    grid-area: destaque-video;
+}
+
+.videos-recentes {
+    grid-area: videos-recentes;
+}
+
+.secao-videos {
+    grid-area: secao-videos;
+}
+
+.destaque-produtos {
+    grid-area: destaque-produtos;
+}
+
+.produtos-recentes {
+    grid-area: produtos-recentes;
+}
+
+.secao-produtos {
+    grid-area: secao-produtos;
 }
